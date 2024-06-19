@@ -20,29 +20,30 @@ const part1 = "java";
 const part2 = "script";
 
 // Convert the last letter of part1 and part2 to uppercase and concatenate the strings
-const java = `jav${part1.charAt(3).toUpperCase()}`
-const script = `scrip${part2.charAt(5).toUpperCase()}`
-const camelTail = java + script
+const java = `jav${part1.charAt(3).toUpperCase()}`;
+const script = `scrip${part2.charAt(5).toUpperCase()}`;
+const camelTail = java + script;
 // Print the cameLtaiL-formatted string
-console.log(camelTail)
+console.log(camelTail);
 /*******************************************
     Iteration 2.1 | Calculate Tip
 *******************************************/
 const billTotal = 84;
 
 // Calculate the tip (15% of the bill total)
-const calc = billTotal * 0.15
+const calc = billTotal * 0.15;
 
 // Print out the tipAmount
-console.log(calc)
+console.log(calc);
 /*******************************************
     Iteration 2.2 | Generate Random Number
 *******************************************/
 
 // Generate a random integer between 1 and 10 (inclusive)
+const randomNum = Math.floor(Math.random() * 10) + 1;
 
 // Print the generated random number
-
+console.log(randomNum);
 /*******************************************
     Iteration 3.1 | Booleans
 *******************************************/
