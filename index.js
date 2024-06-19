@@ -20,9 +20,11 @@ const part1 = "java";
 const part2 = "script";
 
 // Convert the last letter of part1 and part2 to uppercase and concatenate the strings
-
+const java = `jav${part1.charAt(3).toUpperCase()}`
+const script = `scrip${part2.charAt(5).toUpperCase()}`
+const camelTail = java + script
 // Print the cameLtaiL-formatted string
-
+console.log(camelTail)
 /*******************************************
     Iteration 2.1 | Calculate Tip
 *******************************************/
