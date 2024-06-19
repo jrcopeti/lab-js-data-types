@@ -31,9 +31,10 @@ console.log(camelTail)
 const billTotal = 84;
 
 // Calculate the tip (15% of the bill total)
+const calc = billTotal * 0.15
 
 // Print out the tipAmount
-
+console.log(calc)
 /*******************************************
     Iteration 2.2 | Generate Random Number
 *******************************************/
